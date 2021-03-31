@@ -1,0 +1,25 @@
+{% extends "juice/templates/index.html" %}
+
+{% block head %}
+<meta name="keywords"
+      content="ante, gaming, system games, sci-fi">
+<meta itemprop="name" content="{{ config.extra.meta_title }}">
+<meta itemprop="description" content="{{ config.extra.meta_description }}">
+<link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+{% endblock head %}
+
+{% block hero %}
+<section class="text-center">
+    <h1 class="heading-text">Ante</h1>
+    <h3 class="title-text">The only <strong>systems game</strong> you'll need</h3>
+</section>
+<img class="hero-image" src="{{ get_url(path="ante-screenshot.png") }}">
+{% endblock hero %}
+
+{% block footer %}
+<footer>
+    <small class="subtext">
+        <a href="https://antegame.dev">antegame.dev</a> © 2021
+    </small>
+</footer>
+{% endblock footer %}

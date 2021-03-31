@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Recursive;
+  src: url(/recursive.woff2);
+}
+
+@font-face {
+  font-family: RecursiveBold;
+  src: url(/recursive-bold.woff2);
+}
+
+html {
+    font-family: Recursive;
+}
+
+h1, h2, .logo, .heading-text {
+    font-family: RecursiveBold;
+}
+
+.hero-image {
+    width: 50%;
+    max-width: 600px;
+}
