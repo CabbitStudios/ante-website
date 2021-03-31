@@ -1,19 +1,19 @@
 @font-face {
-  font-family: Recursive;
-  src: url(/recursive.woff2);
+  font-family: Staatliches;
+  src: url(/Staatliches-Regular.ttf);
 }
 
 @font-face {
-  font-family: RecursiveBold;
-  src: url(/recursive-bold.woff2);
+  font-family: OpenSans;
+  src: url(/OpenSans-Regular.ttf);
 }
 
 html {
-    font-family: Recursive;
+    font-family: OpenSans;
 }
 
 h1, h2, .logo, .heading-text {
-    font-family: RecursiveBold;
+    font-family: Staatliches;
 }
 
 .hero-image {
