@@ -20,7 +20,7 @@ juice_logo_name = "Ante"
 juice_logo_path = "logo.svg"
 juice_extra_menu = [
     { title = "Blog", link = "/blog/" },
-    { title = "Report a Bug 🐞", link = "https://github.com/CabbitStudios/ante-game" },
+    { title = "Report a Bug 🐞", link = "https://github.com/CabbitStudios/ante-issues" },
 ]
 meta_title = "Ante"
 meta_description = "Ante is a game about problem solving and base building"
